@@ -46,4 +46,8 @@ LRU：哈希+双向链表
 OPT：数组搜索  
 NRU：分级随机列表  
 
+## 實驗結果
+![](https://raw.githubusercontent.com/Jaxx9527/PageReplacementSimulation/refs/heads/main/img/1.png)
+
 OPT算法显著优于其他算法。LRU次优，逼近OPT。FIFO表现最差，且可能出现Belady异常（如下图红框所示）。
+![](https://raw.githubusercontent.com/Jaxx9527/PageReplacementSimulation/refs/heads/main/img/2.png)
